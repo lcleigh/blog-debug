@@ -10,6 +10,20 @@ This web application is broken. You have three objectives:
 
 There were 4 tests not passing to start with.
 
+1. In the '/' method, the posts variable was missing an @ to make it an instance variable.
+There were still 4 tests failing after correcting this.
+
+2. In the index file the input tag labelled title had the name "content" instead of "title".
+There were 3 tests failing after correcting this.
+
+3. There was a random _ in from of the variable response.
+
+4. In abb.rb, one of the parmeters was written at the_title, istead of title.
+There are now 2 tests failing.
+
+5. Again there was a POST instead of a GET method. Must remember to check for these.
+
+6. In the post_manager.rb, in the all_posts_by_tag method, it was searching the titles for a given tag instead of the tags.
 ___
 ## User stories
 
